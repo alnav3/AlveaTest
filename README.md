@@ -26,7 +26,7 @@ A continuación, se muestra un ejemplo de cómo realizar una consulta de precios
 2. Utilizar el siguiente cuerpo de solicitud como ejemplo:
    ```json
    {
-     "applicationDate": "2023-06-29T10:00:00.000Z",
+     "applicationDate": "2020-06-29T10:00:00.000Z",
      "brandId": 1,
      "productId": 35455
    }
