@@ -8,9 +8,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.alvea.test.controller.dto.PriceDto;
-import com.alvea.test.entity.Price;
+import com.alvea.test.jpa.entity.Price;
+import com.alvea.test.jpa.repository.PriceRepository;
 import com.alvea.test.mapper.ServiceMapper;
-import com.alvea.test.repository.PriceRepository;
 import com.alvea.test.service.PriceService;
 
 @Service

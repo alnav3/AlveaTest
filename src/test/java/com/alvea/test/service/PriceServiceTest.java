@@ -14,8 +14,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 
 import com.alvea.test.controller.dto.PriceDto;
-import com.alvea.test.entity.Price;
-import com.alvea.test.repository.PriceRepository;
+import com.alvea.test.jpa.entity.Price;
+import com.alvea.test.jpa.repository.PriceRepository;
 
 @SpringBootTest
 @AutoConfigureMockMvc

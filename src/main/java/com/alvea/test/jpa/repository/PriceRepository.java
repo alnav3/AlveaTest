@@ -1,4 +1,4 @@
-package com.alvea.test.repository;
+package com.alvea.test.jpa.repository;
 
 import java.time.LocalDateTime;
 import java.util.Optional;
@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
-import com.alvea.test.entity.Price;
+import com.alvea.test.jpa.entity.Price;
 
 public interface PriceRepository extends JpaRepository<Price, Long> {
 

@@ -1,4 +1,4 @@
-package com.alvea.test.entity;
+package com.alvea.test.jpa.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

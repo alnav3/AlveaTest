@@ -4,5 +4,8 @@ com/alvea/test/config/DemoConfig.class
 com/alvea/test/mapper/ServiceMapper.class
 com/alvea/test/service/PriceService.class
 com/alvea/test/mapper/ServiceMapperImpl.class
+com/alvea/test/repository/PriceRepository.class
 com/alvea/test/service/impl/PriceServiceImpl.class
 com/alvea/test/TestApplication.class
+com/alvea/test/entity/Price.class
+com/alvea/test/entity/Brand.class

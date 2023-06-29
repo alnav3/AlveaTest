@@ -1,14 +1,14 @@
 package com.alvea.test.mapper;
 
 import com.alvea.test.controller.dto.PriceDto;
-import com.alvea.test.entity.Brand;
-import com.alvea.test.entity.Price;
+import com.alvea.test.jpa.entity.Brand;
+import com.alvea.test.jpa.entity.Price;
 import javax.annotation.processing.Generated;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2023-06-29T15:54:46+0200",
-    comments = "version: 1.4.2.Final, compiler: Eclipse JDT (IDE) 3.34.0.v20230523-1233, environment: Java 17.0.7 (Eclipse Adoptium)"
+    date = "2023-06-29T18:55:58+0200",
+    comments = "version: 1.4.2.Final, compiler: Eclipse JDT (IDE) 3.35.0.v20230622-1425, environment: Java 17.0.7 (Eclipse Adoptium)"
 )
 public class ServiceMapperImpl implements ServiceMapper {
 
@@ -21,11 +21,11 @@ public class ServiceMapperImpl implements ServiceMapper {
         PriceDto priceDto = new PriceDto();
 
         priceDto.setBrandId( priceBrandBrandId( price ) );
+        priceDto.setProductId( price.getProductId() );
+        priceDto.setPriceList( price.getPriceList() );
+        priceDto.setStartDate( price.getStartDate() );
         priceDto.setEndDate( price.getEndDate() );
         priceDto.setPrice( price.getPrice() );
-        priceDto.setPriceList( price.getPriceList() );
-        priceDto.setProductId( price.getProductId() );
-        priceDto.setStartDate( price.getStartDate() );
 
         return priceDto;
     }

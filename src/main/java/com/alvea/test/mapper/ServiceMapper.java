@@ -4,7 +4,7 @@ import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 
 import com.alvea.test.controller.dto.PriceDto;
-import com.alvea.test.entity.Price;
+import com.alvea.test.jpa.entity.Price;
 
 
 @Mapper
